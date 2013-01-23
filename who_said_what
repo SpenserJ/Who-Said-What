@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+var who_said_what = require('./lib/who_said_what');
+
+var who = new who_said_what();
+who.start();

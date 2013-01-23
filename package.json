@@ -1,0 +1,22 @@
+{
+  "name": "who_said_what",
+  "description": "An IRC bot to log channels and display them in a clean interface",
+  "keywords": [ "irc", "log" ],
+  "author": "Spenser Jones <spenser.e.jones@gmail.com>",
+  "version": "0.0.1",
+  "main": "./lib/who_said_what.js",
+  "bin": {
+    "who_said_what": "./who_said_what"
+  },
+  "engines": {
+    "node": ">=0.8.x"
+  },
+  "scripts": {
+    "start": "who_said_what"
+  },
+  "dependencies": {
+    "express": "3.0.x",
+    "jade": "0.28.x",
+    "irc": "0.3.x"
+  }
+}
